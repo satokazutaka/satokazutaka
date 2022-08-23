@@ -1,0 +1,105 @@
+/* こもん */
+body{
+  margin: 0;
+}
+h1,h2{
+  margin: 0;
+}
+.container{
+  max-width: 800px;
+  width:calc(100% - 16px);
+  /* outline:solid 2px red; */
+  margin: 0 auto;
+
+}
+a{text-decoration: none;
+ transition: .3s;
+}
+a:hover{
+  opacity: .5;
+}
+li{
+  list-style: none;
+  color:inherit;
+}
+
+
+/* ヘッダー */
+
+header{
+  margin-top: 16px;
+  /* background: #ccc; */
+
+
+}
+header ul{
+  display: flex;
+ gap:8px;
+ text-align: center;
+
+}
+/* header ul a li{
+  font-size: 8px;
+} */
+header ul a i{
+  font-size: 16px;
+}
+header li{
+  color:inherit;
+}
+
+header .container{
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+}
+
+
+/* ヒーロー */
+.hero img{
+  width:100%;
+  height:400px;
+ object-fit: cover;
+ 
+}
+
+/* アイテム */
+.item {
+  margin-top:64px;
+}
+
+.item ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+}
+.item li{
+  width:calc((100% - 16px)/2);
+  /* margin: 0 auto; */
+ /* border:1px solid blue; */
+
+ 
+}
+.item img{
+  width:100%;
+}
+
+
+/* もっと見る */
+.more{
+  display: block;
+  text-align: center;
+  width:70%;
+  margin: 64px auto;
+  border: 1px solid #ccc;
+line-height: 48px;
+ 
+}
+
+
+footer{
+  padding:32px 8px;
+  background: #ccc;
+  color:#fff;
+}

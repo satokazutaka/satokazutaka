@@ -1,0 +1,96 @@
+
+
+
+/* 共通 */
+body{
+  margin:0;
+}
+img{
+  vertical-align:bottom;
+}
+h1, p{
+  margin:0;
+
+}
+
+
+/* ヘッダー */
+header{
+  background:#efefee;
+
+}
+/* クラス↓指定した時にはスペースが必要 */
+header .icon{
+  border-radius:50%;
+
+}
+/* ここ↓にスペース必要！！ */
+header .abc{
+  width:400px;
+  margin:0 auto;
+
+  padding:40px 0;
+  display:flex;
+ align-items: center;
+}
+header h1{
+  font-weight:normal;
+  font-size:24px;
+
+}
+header ul{
+  margin:0;
+  padding:0;
+list-style: none;
+display:flex;
+
+}
+header ul li+li{
+  margin-left: 8px;
+}
+header div+div{
+  margin-left:48px;
+
+}
+
+/* メイン */
+main .abc{
+  /* outline:2px solid red; */
+  width:640px;
+  margin:0 auto;
+  
+}
+main h1{
+  font-weight:normal;
+  font-size:24px;
+text-align:center;
+margin:64px 0;
+
+}
+main section h2{
+font-weight:normal;
+
+  /* text-align:center; */
+
+}
+main section p{
+  margin-bottom:64px;
+line-height:1.8;
+
+
+}
+
+ 
+
+
+/* フッター */
+
+footer{
+  text-align:center;
+  background:#cccccc;
+padding:64px;
+color:#aaa;
+
+
+
+}
